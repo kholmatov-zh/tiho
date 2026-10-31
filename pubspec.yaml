@@ -1,0 +1,38 @@
+name: tiho
+description: Уютная погода в своём ритме. Flutter-приложение для iOS.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.13.1 <4.0.0'
+  flutter: '>=3.47.1'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: 1.0.9
+  http: 1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope.ttf
+          weight: 400
+        - asset: assets/fonts/Manrope.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope.ttf
+          weight: 600
+    - family: Lora
+      fonts:
+        - asset: assets/fonts/Lora.ttf
